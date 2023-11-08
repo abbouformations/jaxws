@@ -11,6 +11,7 @@ import ma.formations.soap.service.model.Article;
 
 import java.util.List;
 
+
 @WebService(serviceName = "EcommerceWS")
 public class ArticleSoapController {
     private IService service;
@@ -35,7 +36,7 @@ public class ArticleSoapController {
     @WebMethod
     public String deleteById(Long id) {
         service.deleteById(id);
-        return String.format("Article with id=%s is removed with success",id);
+        return String.format("Article with id=%s is removed with success", id);
     }
 
     @WebMethod

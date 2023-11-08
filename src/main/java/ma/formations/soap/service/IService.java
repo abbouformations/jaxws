@@ -2,6 +2,7 @@ package ma.formations.soap.service;
 
 import ma.formations.soap.service.model.Article;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public interface IService {

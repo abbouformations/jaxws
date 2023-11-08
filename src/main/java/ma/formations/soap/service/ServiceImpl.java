@@ -3,7 +3,6 @@ package ma.formations.soap.service;
 import ma.formations.soap.service.model.Article;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ServiceImpl implements IService {
@@ -31,7 +30,7 @@ public class ServiceImpl implements IService {
             repository.add(result);
             return result;
         } catch (Exception ex) {
-            result=article;
+            result = article;
             repository.add(result);
             return result;
         }
